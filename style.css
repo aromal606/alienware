@@ -1,3 +1,4 @@
+
 .navbar-expand-md {
     background: #222222;
     height: 90px;
@@ -11,6 +12,9 @@
 .p-1{
     
     justify-content: end;
+    padding: 0.2rem;
+    
+
     
 }
 .intel-img {
@@ -38,12 +42,23 @@
     font-size: 16px;
     letter-spacing: 0.8px;
     background: #222222;
+
 }
 .alienware h2{
     font-size: 28px;
     line-height: 32px;
     font-weight: 700;
     font-family: inherit
+}
+
+.problem{
+    
+    position: relative;
+    bottom: 83vh;
+    margin: 0vh;
+}
+.problem-button{
+    position: inher
 }
 
 .dropdown-menu a{
@@ -82,8 +97,11 @@ section{
     
 }
 
+.sec-6-full-text {
+    margin-left: 0px;
+}
 .d-lg-block{
-    margin-left: 700px;
+    margin-left: 0px;
 }
 
 .full-text h1{
@@ -109,7 +127,7 @@ section{
 
 .sec-2-full-text{
     position: absolute;
-    left: -590px;
+    left: 90px;
     top: 50%;
     transform: translatey(-50%);
     color: #444;
@@ -195,14 +213,15 @@ section{
 .sec-6-full-text{
     position: absolute;
     max-width: 50%;
-    left: -570px;
+    left: 20px;
     top: 50%;
     transform: translatey(-50%);
     color: white;
 }
 .sec-5-full-text {
     position: relative;
-    top: -450px;
+    top: -440px;
+    left: 700px;
 }
       
 
@@ -360,8 +379,7 @@ text-align: center;
  } 
 
 @media (max-width: 991px){
-    .message-bar-content,
-    .mb-short-meassage 
+    .message-bar-content
     span{
         padding-right: 6px;
     }
@@ -392,5 +410,6 @@ text-align: center;
    
 }
 
-
-
+.message-bar{
+    width: 20px;
+}
