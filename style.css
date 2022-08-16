@@ -1,8 +1,12 @@
 
+
 .navbar-expand-md {
     background: #222222;
     height: 90px;
 
+}
+.nav-item,.dropdown-menu,.nav-bar{
+    z-index: 2;
 }
 .link-para1{
     margin-left: 50px;
@@ -64,6 +68,7 @@
 
 .dropdown-menu a{
 color: white;
+z-index: 1;
 }
 
 .message-bar{
